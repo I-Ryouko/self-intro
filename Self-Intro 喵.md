@@ -21,7 +21,7 @@
 - <img src="/.catoverflowsrc/archlinux.svg" width=30></img> Arch Linux!!!
 
 - 有点社恐x
-- INFT-P
+- INFP-T
 
 > 小图标是[这里](https://github.com/edent/SuperTinyIcons)的
 
