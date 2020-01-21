@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>小何的自我介绍</title>
+  <link href="http://apps.bdimg.com/libs/highlight.js/9.1.0/styles/monokai-sublime.min.css" rel="stylesheet">
+  <style type="text/css">
+    body{background: transparent;}
+    ul{list-style: none;}
+    li{font-size: 25px;}
+    u{
+      float: left;
+      width: 20px;
+      height: 20px;
+      background:url("xingxing.png")}                                                                                                                                                   
+    </style>
+</head>
+<body>
+  <img src="hjz.jpeg" alt="丑照" width="250" height="" style="float:left;" hspace="1" />
+  <img src="hjz1.jpeg" alt="丑照" width="250" height="" align="right" hspace="1" />
+  <h1 align="center"><font size="6" color="#BEE7E9" face="华文行楷"><b>何家志</b></font></h1>
+    <a href="http://business.ustc.edu.cn/"><color="#fa8c05"><p align="center">major:school of Management</p></a>
+    <a href="http://hjz346594825@mail.ustc.edu.cn/"><color="#fa8c05"><p align="center">mailbox:hjz346594825@mail.ustc.edu.cn</p></a>
+  <div>  <table border="1" style="background-color:#00BCD4" bordercolor="#fa8c05" cellspacing=2 cellpadding=1 align="center">
+      <tr><td>性别</td><td>年级</td><td>年龄</td><td>班级</td><td>QQ号</td><td>星座</td></tr> 
+      <tr align="center" bgcolor>
+      <td>男</td><td>19级</td><td>19岁</td><td>管院 1班</td><td>346594825</td><td>狮子座</td></tr>
+  </table></div>
+  <br> <br> <br>
+  <hr>
+   
+  <h2 align="left">Hobbies</h2>
+  <ul>
+      <li><u></u> 摄影 用心发现美</li>
+      <li><u></u> 数学 你终究会爱上我</li>
+      <li><u></u> 旅行 世界那么大 我想去看看（不过最近还是老老实实家里蹲）</li>
+  </ul>
+  <hr />
+
+  <h2>Skills:</h2>
+  <ul>
+      <li><u></u> 编程小白，上大学前没有任何编程基础，上大学后对编程感兴趣，期末程设没写完，总评93</li>
+      <li><u></u> 加入院宣传部，用PS做了露天舞会的海报</li>
+  </ul>
+  <img src="dance.jpeg"  width="250" height="" style="float:center;" hspace="1" />
+  <hr>
+
+  <h2>Planning:</h2>
+  <ul>
+      <li><u></u> 一直都听说Python比较强大，打算学学</li>
+      <li><u></u> 肝数分（期末数分B1爆炸了）</li>
+      <li><u></u> 掌握前端相关的一些技能</li>
+      <li><u></u> 练习乒乓球（下学期选了课）</li>
+      <li>......</li>
+  </ul>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/showdown/1.9.0/showdown.js"></script>
+<script src="http://apps.bdimg.com/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.5.0/highlightjs-line-numbers.min.js"></script>
+<script>
+    let contents = $(".contents");
+    let con = contents.text();
+    let converter = new showdown.Converter();
+    let html = converter.makeHtml(con);
+    console.log(html);
+    contents.html(html);
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+</body>
+</html>
