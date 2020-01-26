@@ -15,12 +15,21 @@
 ## 喜欢做的事情和喜欢的东西
 
 - 轻音乐/Newage
+
 - 方舟/FGO和其他剧情向的东西
+
+  还有音游~
+
 - 文/哲/物理和化学
+
 - 跳 🤸‍♀️
+
 - 欺负服务器酱<s>（每日 reboot 1/1）</s>
+
 - 巧克力和布丁 🍫🍮
+
 - Kemomimi Chan
+
 - <a href="https://archlinux.org"><img src="/.catoverflowsrc/archlinux.svg" width=30></img>Arch Linux</a>!!!
 
 ---
